@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 20px;
+  width: 420px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.choice-btn {
+  flex: 1;
+  margin: 5px;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #334155;
+  color: white;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.choice-btn:hover {
+  background: #475569;
+  transform: scale(1.05);
+}
+
+.icon {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.win {
+  color: #22c55e;
+}
+
+.lose {
+  color: #ef4444;
+}
+
+.draw {
+  color: #facc15;
+}
+
+.reset-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+  transition: 0.2s;
+}
+
+.reset-btn:hover {
+  background: #1d4ed8;
+}
