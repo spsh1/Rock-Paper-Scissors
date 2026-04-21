@@ -47,7 +47,7 @@ Navigate into the project folder:
 
 - npm install
 
-## Start the development server:
+Start the development server:
 
 npm start
 
