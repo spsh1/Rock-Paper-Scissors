@@ -34,20 +34,20 @@ https://your-live-link-here
 
 ## How to Run Locally
 
-Clone the repository:
+-Clone the repository:
 
 ```bash
 git clone https://github.com/spsh1/Rock-Paper-Scissors.git
 
 Navigate into the project folder:
 
-cd Rock-Paper-Scissors
+- cd Rock-Paper-Scissors
 
-Install dependencies:
+- Install dependencies:
 
-npm install
+- npm install
 
-Start the development server:
+## Start the development server:
 
 npm start
 
