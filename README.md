@@ -6,12 +6,6 @@ This project demonstrates component-based architecture, state management using h
 
 ---
 
-## Live Demo
-(Optional if deployed later)  
-https://your-live-link-here
-
----
-
 ## Features
 
 - Interactive Rock, Paper, Scissors gameplay
